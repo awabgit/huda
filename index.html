@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <title>Portfolio</title>
+  <script src="https://kit.fontawesome.com/b76e266d47.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!---------------------------header-section--------------------------->
+  <div id="header" class="header-js">
+    <div class="container">
+      <nav>
+        <div class="logo-js"><img src="images/IMG_5129.PNG" class="logo"></div>
+        <ul id="js-menu">
+          <li><a href="#header" class="js-icon-1"><i class="fa-solid fa-house"></i> Home</a></li>
+          <li><a href="#about" class="js-icon-2"><i class="fa-solid fa-address-card"></i> About</a></li>
+          <li><a href="#services" class="js-icon-3"><i class="fa-solid fa-syringe"></i> Services</a></li>
+          <li><a href="#portfolio" class="js-icon-4"><i class="fa-solid fa-user-doctor"></i> Portfolio</a></li>
+          <li><a href="#contact" class="js-icon-5"><i class="fa-solid fa-message"></i> Contact</a></li>
+          <div id="toggle-btn" class="toggle" onclick="changeTheme();"><i class="indicator" id="circle"></i></div>
+          <i class="fas fa-times js-icon-6" onclick="closeMenu();"></i>
+          
+        </ul>
+        
+        <i class="fas fa-bars js-icon-7" onclick="openMenu();"></i>
+      </nav>
+      <div class="header-text">
+        <p class="text-an">Dermatolojist</p>
+        <h1><span class="intro intro-css">Hi, I'am </span><span class="highlight highlight-css">Hudda</span><br><span class="location">From sudan</span></h1>
+      </div>
+    </div>
+  </div>
+  <!---------------------------about-section--------------------------->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/newimage1.JPG">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>
+            Professional Dermatologist with more than 10 years experience in
+            diagnosing and treating various skin disorders following
+            evidence based guidelines. Expert in performing dermatologic
+            and cosmetic procedures. Have proven ability to train and
+            instruct juniour doctors as well as to maintain high patient.
+            satifaction rate. Seaking to deliver health care excellence at
+            major and well established centres.
+          </p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="openTab('skills');">Skills</p>
+            <p class="tab-links" onclick="openTab('experience');">Experience</p>
+            <p class="tab-links" onclick="openTab('education');">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>Fillers</span><br>Dermal filler for face contouring, lifting and rejuvenation, including upper, middle and lower face.</li>
+              <li><span>Botox</span><br>Botox for face and neck aesthetics and for body hyperlydrosis.</li>
+              <li><span>PRP Injections</span><br>Platelet rich plasma for face and scalp.</li>
+              <li><span>Chemical Peeling</span><br>Chemical peeling, superficial and medium depth using different materials.</li>
+              <li><span>Mesotherapy</span><br>Mesotherapy using hand and mesogun technique.</li>
+              <li><span>Microneedling</span><br>Microneedling for skin rejuvination, scars and striae.</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>Nov.2017 - Present time</span><br>Worked for Alsaha Specialized Hospital | Khartoum, Sudan.</li>
+              <li><span>2016 - Present time</span><br>Worked for Prof.Al Mahdi Moh. Ali Medical Complex | Khartoum, Sudan.</li>
+              <li><span>Nov.2014 - Nov.2017</span><br>El Sheikh Specialized Hospital | Khartoum, Sudan.</li>
+              <li><span>Jun.2014 - Jun.2015</span><br>Multi Care Polyclinic | Khartoum, Sudan.</li>
+              <li><span>Jan.2014 - Jun.2016</span><br>Prof. Abd Elkarim Osman Medical Complex | Khartoum, Sudan.</li>
+              <li><span>Dec.2013 - Apr.2014</span><br>Al Habeeb Medical Complex | Khartoum, Sudan.</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>Nov.1996</span><br>Bachelor of Medicine and Surgery | University of Khartoum.</li>
+              <li><span>Jun.2013</span><br>Clinical MD in Dermatology and Venereal Diseases | Sudan Medical Specialization Board.</li>
+              <li><span>Jan.2007</span><br>Permenant Registration | Sudan Medical Counsil.</li>
+              <li><span>Sep.2021</span><br>Consultant Registration | Sudan Medical Counsil.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!---------------------------services-section--------------------------->
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-hospital"></i>
+          <h2>Fillers</h2>
+          <p>
+            Dermal filler for face contouring, lifting and rejuvenation, including upper, middle and lower face.
+          </p>
+          <a href="images/Dr. Huda CV-2 2.pdf" target="_blank">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-stethoscope"></i>
+          <h2>Botox</h2>
+          <p>
+            Botox for face and neck aesthetics and for body hyperlydrosis.
+          </p>
+          <a href="images/Dr. Huda CV-2 2.pdf" target="_blank">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-syringe"></i>
+          <h2>Chemical Peeling</h2>
+          <p>
+            Chemical peeling, superficial and medium depth using different materials.
+          </p>
+          <a href="images/Dr. Huda CV-2 2.pdf" target="_blank">Learn more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!---------------------------portfolio-section--------------------------->
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">Portfolio</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="images/botox-or-filler.jpg">
+          <div class="layer">
+            <h3>Working with Botox</h3>
+            <p>Botox works by temporarily paralyzing muscles, reducing the appearance of wrinkles and fine lines on the face.</p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/php-injection.jpg">
+          <div class="layer">
+            <h3>Working with PRP Injections</h3>
+            <p>PRP injections stimulate healing and growth using a patient's own blood platelets, often for skin rejuvenation or injury recovery.</p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/botox-or-filler2.jpg">
+          <div class="layer">
+            <h3>Working with fillers</h3>
+            <p>Fillers enhance volume in specific areas, reducing wrinkles and rejuvenating the face for a more youthful appearance</p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+      <a href="images/Dr. Huda CV-2 2.pdf" target="_blank" class="btn" id="js-see">See more</a>
+    </div>
+  </div>
+  <!---------------------------contact-section--------------------------->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fa-solid fa-envelope"></i> hudashatherwan71@gmail.com</p>
+          <p><i class="fa-solid fa-square-phone"></i> +249911059995 / +905526399271</p>
+          <div class="social-icons">
+            <a target="_blank" href="https://www.facebook.com/profile.php?id=100038029406767&mibextid=ZbWKwL"><i class="fa-brands fa-facebook social-1"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter-square social-2"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram social-3"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/huda-osman-a7583a230?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin social-4"></i></a>
+          </div>
+          <a href="images/Dr. Huda CV-2 2.pdf" download class="btn-download" id="download-btn">Download CV <i class="fa-solid fa-download"></i></a>
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="Email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn-download" id="download-btn">Submit</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+    </div> 
+    <div class="copy-right">
+      <p>Copyright &copy; <!--Hudda. Made by <i class="fa-solid fa-heart"></i>--> @awab</p>
+    </div>
+  </div>
+
+
+
+  <script>
+
+    const introElement = document.querySelector('.intro');
+    const highlightElement = document.querySelector('.highlight');
+    const locationElement = document.querySelector('.location');
+
+    const introText = "Hi, I'm ";
+    const highlightText = "Hudda";
+    const locationText = "From Sudan";
+
+    introElement.innerHTML = '';
+    highlightElement.innerHTML = '';
+    locationElement.innerHTML = '';
+
+    function typeWriter2(element, text, i) {
+      if (i < text.length) {
+        element.innerHTML += text.charAt(i);
+        i++;
+        setTimeout(() => typeWriter2(element, text, i), 100); // Adjust the speed of typing here
+      }
+    }
+
+    function lightTheme() {
+        body.style.background = 'white';
+        body.style.color = 'black';
+        header.style.backgroundImage = "url('images/Untitled\ design\ \(1\).png')";
+        icon1.style.color = 'black';
+        icon2.style.color = 'black';
+        icon3.style.color = 'black';
+        icon4.style.color = 'black';
+        icon5.style.color = 'black';
+        icon6.style.color = 'black';
+        icon7.style.color = 'black';
+        seeBtn.style.color = 'black';
+        social1.style.color = 'black'; 
+        social2.style.color = 'black'; 
+        social3.style.color = 'black'; 
+        social4.style.color = 'black';
+        toggle.style.backgroundColor = '#222'; 
+        circle.style.backgroundColor = 'white';
+        circle.style.left = '0';
+        logoJs.innerHTML = '<img src="images/IMG_5129.PNG" class="logo">';
+        currentTheme = 'light';
+        localStorage.setItem('theme', 'light');
+    }
+
+    function darkTheme() {
+        body.style.background = '#201E1E';
+        body.style.color = 'white';
+        header.style.backgroundImage = "url('images/Untitled design (1)-dark-theme.jpg')";
+        icon1.style.color = 'white';
+        icon2.style.color = 'white';
+        icon3.style.color = 'white';
+        icon4.style.color = 'white';
+        icon5.style.color = 'white';
+        icon6.style.color = 'white';
+        icon7.style.color = 'white';
+        seeBtn.style.color = 'white';
+        social1.style.color = 'white';
+        social2.style.color = 'white';
+        social3.style.color = 'white';
+        social4.style.color = 'white';
+        toggle.style.backgroundColor = 'white';
+        circle.style.background = '#222'; 
+        circle.style.left = '35px';
+        logoJs.innerHTML = '<img src="images/IMG_5128.PNG" class="logo">';
+        currentTheme = 'dark';
+        localStorage.setItem('theme', 'dark');
+    }
+
+
+    window.onload = function() {
+      /*if (savedTheme === 'dark') {
+        darkTheme();
+      }
+      else if (savedTheme === 'light') {
+        lightTheme();
+      }*/
+
+      typeWriter2(introElement, introText, 0);
+      setTimeout(() => typeWriter2(highlightElement, highlightText, 0), introText.length * 100); // Delay to start after intro
+      setTimeout(() => typeWriter2(locationElement, locationText, 0), (introText.length + highlightText.length) * 100); // Delay to start after highlight
+      setTimeout(() => typeWriter2(textElement, initialText, 0), 130);
+    };
+
+    const textElement = document.querySelector('.text-an');
+    const initialText = "Dermatolojist";
+    textElement.innerHTML = '';
+
+
+    const tabLinks = document.getElementsByClassName('tab-links');
+    const tabContents = document.getElementsByClassName('tab-contents');
+    const toggle = document.getElementById('toggle-btn');
+    const circle = document.getElementById('circle');
+    const body = document.body;
+    
+    const header = document.querySelector('.header-js');
+    const icon1 = document.querySelector('.js-icon-1');
+    const icon2 = document.querySelector('.js-icon-2');
+    const icon3 = document.querySelector('.js-icon-3');
+    const icon4 = document.querySelector('.js-icon-4');
+    const icon5 = document.querySelector('.js-icon-5');
+    const icon6 = document.querySelector('.js-icon-6');
+    const icon7 = document.querySelector('.js-icon-7');
+    const seeBtn = document.getElementById('js-see');
+    const social1 = document.querySelector('.social-1');
+    const social2 = document.querySelector('.social-2');
+    const social3 = document.querySelector('.social-3');
+    const social4 = document.querySelector('.social-4');
+    const logoJs = document.querySelector('.logo-js');
+
+    function changeTheme() {
+      //let currentTheme = localStorage.getItem('theme');
+      if (currentTheme === 'light') {
+        body.style.background = '#201E1E';
+        body.style.color = 'white';
+        header.style.backgroundImage = "url('images/Untitled design (1)-dark-theme.jpg')";
+        icon1.style.color = 'white';
+        icon2.style.color = 'white';
+        icon3.style.color = 'white';
+        icon4.style.color = 'white';
+        icon5.style.color = 'white';
+        icon6.style.color = 'white';
+        icon7.style.color = 'white';
+        seeBtn.style.color = 'white';
+        social1.style.color = 'white';
+        social2.style.color = 'white';
+        social3.style.color = 'white';
+        social4.style.color = 'white';
+        toggle.style.backgroundColor = 'white';
+        circle.style.background = '#222'; 
+        circle.style.left = '35px';
+        logoJs.innerHTML = '<img src="images/IMG_5128.PNG" class="logo">';  
+        currentTheme = 'dark';
+        localStorage.setItem('theme', 'dark');
+
+      } else {
+        body.style.background = 'white';
+        body.style.color = 'black';
+        header.style.backgroundImage = "url('images/Untitled\ design\ \(1\).png')";
+        icon1.style.color = 'black';
+        icon2.style.color = 'black';
+        icon3.style.color = 'black';
+        icon4.style.color = 'black';
+        icon5.style.color = 'black';
+        icon6.style.color = 'black';
+        icon7.style.color = 'black';
+        seeBtn.style.color = 'black';
+        social1.style.color = 'black'; 
+        social2.style.color = 'black'; 
+        social3.style.color = 'black'; 
+        social4.style.color = 'black';
+        toggle.style.backgroundColor = '#222'; 
+        circle.style.backgroundColor = 'white';
+        circle.style.left = '0';
+        logoJs.innerHTML = '<img src="images/IMG_5129.PNG" class="logo">';
+        currentTheme = 'light';
+        localStorage.setItem('theme', 'light');
+      }
+    }
+
+    function openTab(tabName) {
+      for (tabLink of tabLinks) {
+        tabLink.classList.remove('active-link');
+      }
+      for (tabContent of tabContents) {
+        tabContent.classList.remove('active-tab');
+      }
+      event.currentTarget.classList.add('active-link');
+      document.getElementById(tabName).classList.add('active-tab');
+    }
+
+    const menu = document.getElementById('js-menu'); 
+
+    function openMenu() {
+      menu.style.right = '0';
+    }
+    
+    function closeMenu() {
+      menu.style.right = '-200px';
+    }
+
+    window.onkeydown = function(e) {
+      if (e.key === 'C' || e.key === 'c') {
+          changeTheme();
+        }
+    }
+
+  </script>
+
+
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwuSF_kOqMH4QZ_jbH0TrAz3Pyuhy_5HtTSuPI_qM0ZqhORt0UMQLWQ5u4dxBkHPB5nhQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById('msg');
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+          msg.innerHTML = 'Message Sent Successfully &#10004;';
+          setTimeout(() => {
+            msg.innerHTML = '';
+          }, 5000);
+          form.reset();
+        })
+        .catch(error => {
+          msg.style.color = 'style';
+          msg.innerHTML = 'Sorry something went wrong :(';
+          setTimeout(() => {
+            msg.innerHTML = '';
+          }, 5000);
+          form.reset();
+        })
+    })
+
+    const savedTheme = localStorage.getItem('theme');
+    let currentTheme = 'light';
+
+    if (savedTheme === 'dark') {
+        darkTheme();
+      }
+      else if (savedTheme === 'light') {
+        lightTheme();
+      }
+  </script>
+
+</body>
+
+</html>
