@@ -21,6 +21,7 @@ body {
   background-position: center;
  /*background-attachment: fixed;*/
   transition: background 0.5s;
+  background: #DADEE8;
 }
 .gradient {
   position: absolute;
